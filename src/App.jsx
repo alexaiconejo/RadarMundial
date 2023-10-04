@@ -184,10 +184,10 @@ function App(urls) {
 
   const mapProps = {
     initialViewState: {
-      longitude: -72.0, // Coordenada longitudinal de Argentina
-      latitude: -40.0, // Coordenada latitudinal de Argentina
-      zoom: 2.7, //zoom inicial
-      minZoom: 2, // Nivel mínimo de zoom permitido
+      longitude: 18.263653887413344, // Coordenada longitudinal de Argentina
+      latitude: -27.769424846630283, // Coordenada latitudinal de Argentina
+      zoom: 1, //zoom inicial
+      minZoom: 1, // Nivel mínimo de zoom permitido
       maxZoom: 15, // Nivel máximo de zoom permitido
     },
     style: {
