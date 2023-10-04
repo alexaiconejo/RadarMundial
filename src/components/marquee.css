@@ -6,7 +6,7 @@
 #marquee-container{
     width: 100vw;
     height: 3vh;
-    background-color: #2b3bcd;
+    background-color: #9b1920;
    
     top: 8vh;
     z-index: 5000;
@@ -38,7 +38,7 @@ position: fixed;
     #marquee-container{
         width: 100vw;
         height: 20px;
-        background-color: #2b3bcd;
+        background-color: #9b1920;
        
         top: 8vh;
         z-index: 3000;

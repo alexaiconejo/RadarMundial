@@ -16,7 +16,7 @@ background-image: url(radarPuntos.png);
     display: grid;
     grid-template-columns: 1fr;
     width: 100vw;
-    background-color: #2b3bcd;
+    background-color: #;
     padding: 20px 0px;
     padding-top: 12vh;
 
@@ -163,7 +163,7 @@ width: 100vw;
 #subir{
 
     margin-top: 2vh;
-    background-color: #2b3bcd;
+    background-color: #9b1920;
     border-color: white;
 border-radius: 12px;
 width: 20vw;

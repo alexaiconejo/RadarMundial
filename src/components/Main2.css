@@ -51,14 +51,14 @@
 
 #tituloNotasMain{
     font-size: 1.5rem;
-    color: #2b3bcd;
+    color: #9b1920;
 }
 
 #bajadaPrincipal{
     font-size: 0.6rem;
     padding: 0vh 6vw;
     text-align: justify;
-    color: #2b3bcd;
+    color: #9b1920;
     padding-top: 1vh;
 }
 
@@ -128,7 +128,7 @@
 .autorNotaMain{
     font-size: 0.7rem;
     padding: 1vh ;
-    color: #2b3bcd;
+    color: #9b1920;
 }
 
 
@@ -146,14 +146,14 @@
 #botoneraMain{
     padding-top: 2vh;
 display: grid;
-grid-template-columns: 3fr 1fr;
+grid-template-columns: 1fr;
 column-gap: 2vw;
 
 }
 
 #contactoMain{
     color: white;
-    background-color: #2b3bcd;
+    background-color: #9b1920;
     margin-top: 0px;
     border-radius: 20px;
     padding: 20px;
@@ -211,8 +211,8 @@ column-gap: 2vw;
   cursor: pointer; /* Cambiar el cursor al estilo de clic */
 
 background-color: white;
-border-color: #2b3bcd;
-color: #2b3bcd;
+border-color: #9b1920;
+color: #9b1920;
 border-radius: 15px;
 
 
@@ -234,7 +234,7 @@ font-size: 0.8rem;
     text-decoration: none; /* Quitar subrayado de enlace */
   cursor: pointer; /* Cambiar el cursor al estilo de clic */
 
-    background-color:  #2b3bcd;
+    background-color:  #9b1920;
     border-color: white;
     color: white;
     width: 45vw;
@@ -252,6 +252,17 @@ font-size: 0.8rem;
   border-radius: 25px;
 
     }
+
+    
+.logosImg{
+    width: 16vw;
+}
+
+.logosWeb{
+    background-color: white;
+}
+
+
 
 
 /*== Responsive==*/
@@ -309,7 +320,7 @@ font-size: 0.8rem;
 
 #contactoMain{
     width: 41vw;
-    height: 25vh;
+    height: 41vh;
     padding: 0px;
     
 
@@ -356,7 +367,7 @@ font-size: 0.8rem;
     font-size: 1rem;
     padding: 0vh 6vw;
     text-align: justify;
-    color: #2b3bcd;
+    color: #9b1920;
     padding-top: 5vh;
     padding-bottom: 3vh;
 }
@@ -394,6 +405,18 @@ font-size: 0.8rem;
 
         }
 
+
+        
+.logosImg{
+    width: 10vw;
+}
+
+.logosWeb{
+    background-color: white;
+}
+
+
+
 }
 
 
@@ -412,7 +435,7 @@ font-size: 0.8rem;
 }
 
 #botonConectaMain{
-    width: 8vw;
+    width: 15vw;
     }
 
     #botonAnalisisMain{
@@ -450,7 +473,7 @@ font-size: 0.8rem;
         font-size: 1.3rem;
         padding: 0vh 10vw;
         text-align: justify;
-        color: #2b3bcd;
+        color: #9b1920;
         padding-top: 3vh;
     }
 
@@ -458,15 +481,21 @@ font-size: 0.8rem;
 #conectaTextMain{
     color: white;
      width: 40vw;
-     font-size: 0.9rem;
+     font-size: 1.5rem;
      text-align: justify;
-     padding: 2vh 5vw;
+     padding: 4vh 5vw;
      margin: 0px;
 
  
  }
 
+.logosImg{
+    width: 10vw;
+}
 
+.logosWeb{
+    background-color: white;
+}
 
 
 

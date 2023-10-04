@@ -14,6 +14,21 @@ export const ProvSource = ({data, style}) => (
     />
   </Source>
 )
+
+export const ItaliaSource = ({data, style}) => (
+  <Source id="italia-source" type="geojson" data={data}>
+    <Layer
+      id="italia-layer"
+      type="fill"
+      paint={{
+        'fill-color': style.fillColor,
+        'fill-opacity': style.fillOpacity,
+        'fill-outline-color': style.color,
+
+      }}
+    />
+  </Source>
+)
 export const DepsSource = ({data, style}) => (
   <Source id="departamentos-source" type="geojson" data={data}>
     <Layer

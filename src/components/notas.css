@@ -9,7 +9,7 @@
     padding: 20px 12vw;
     padding-top: 25vh;
     height: 90vh;
-    color: #2b3bcd;
+    color: #9b1920;
   
 
 }
@@ -20,7 +20,7 @@
 
 .notasItemContainer{
     border-style: inset;
-    border-color: #2b3bcd;
+    border-color: #9b1920;
     border-width: 2px;
     border-radius: 25px;
     padding: 10vh 15vw;
@@ -72,13 +72,13 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  color: #2b3bcd; /* Change arrow color */
+  color: #9b1920; /* Change arrow color */
   font-size: 2rem; /* Adjust arrow size */
 }
 
 /* Customize the color of the active carousel indicator */
 .carousel-indicators .active {
-    background-color: #2b3bcd; /* Change to your desired color */
+    background-color: #9b1920; /* Change to your desired color */
   }
 
 /* Left Arrow */

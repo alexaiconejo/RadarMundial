@@ -155,9 +155,9 @@
 
 #botonFiltrosMap{
   font-size: 1rem;
-  color: #2b3bcd;
+  color: #9b1920;
   border: solid;
-  border-color: #2b3bcd;
+  border-color: #9b1920;
   border-width: 1px;
   border-radius: 25px;
   padding: 0.5vh 1vw;
@@ -243,12 +243,12 @@
 }
 
 #fechaInicio{
-color: #2b3bcd;
+color: #9b1920;
 text-align: left;
 }
 
 #fechaCierre{
-  color: #2b3bcd;
+  color: #9b1920;
   text-align: right;
   }
 
@@ -282,7 +282,7 @@ padding-top: 3vh;
   padding: 15px;
   padding-left: 25px;
   color: white;
-  background-color: #2b3bcd;
+  background-color: #9b1920;
   border: 1px solid white;
   border-radius: 30px;
   z-index: 1000;
@@ -340,7 +340,7 @@ padding-top: 3vh;
     padding: 15px;
     padding-left: 25px;
     color: white;
-    background-color: #2b3bcd;
+    background-color: #9b1920;
     border: 1px solid white;
     border-radius: 30px;
     z-index: 1000;
