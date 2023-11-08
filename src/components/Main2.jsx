@@ -46,16 +46,15 @@ export default function Main2() {
 
         <div id='franja2'>
 
-          <div id='notasMain'>
-            <button className='logosWeb'><img className='logosImg' src="crisis.png" alt="Crisis" /></button>
-            <button className='logosWeb'><img className='logosImg' src="maghweb.png" alt="Maghweb" /></button>
-            <button className='logosWeb'><img className='logosImg' src="usAndThem.png" alt="Us and Them" /></button>
-            <button className='logosWeb'><img className='logosImg' src="ue.png" alt="European Union" /></button>
-            <button className='logosWeb'><img className='logosImg' src="movimientoPorLaPaz.png" alt="Movimiento por La Paz" /></button>
-            <button className='logosWeb'><img className='logosImg' src="amigaJoven.png" alt="Amiga Joven" /></button>
+        <div id='notasMain'>
+  <a href="https://revistacrisis.com.ar/" target="_blank" className='logosWeb'><img className='logosImg' src="crisis.png" alt="Crisis" /></a>
+  <a href="https://www.maghweb.org/" target="_blank" className='logosWeb'><img className='logosImg' src="maghweb.png" alt="Maghweb" /></a>
+  <a href="https://www.maghweb.org/progetto-us-and-them/" target="_blank" className='logosWeb'><img className='logosImg' src="usAndThem.png" alt="Us and Them" /></a>
+  <a href="https://erasmus-plus.ec.europa.eu/es" target="_blank" className='logosWeb'><img className='logosImg' src="ue.png" alt="European Union" /></a>
+  <a href="https://www.mpdl.org/" target="_blank" className='logosWeb'><img className='logosImg' src="movimientoPorLaPaz.png" alt="Movimiento por La Paz" /></a>
+  <a href="https://corporacionamigajoven.org/wp2" target="_blank" className='logosWeb'><img className='logosImg' src="amigaJoven.png" alt="Amiga Joven" /></a>
+</div>
 
-
-          </div>
 
 
           <div id='botoneraMain'>

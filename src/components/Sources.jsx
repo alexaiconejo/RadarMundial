@@ -29,6 +29,41 @@ export const ItaliaSource = ({data, style}) => (
     />
   </Source>
 )
+
+
+export const EspaniaSource = ({data, style}) => (
+  <Source id="espania-source" type="geojson" data={data}>
+    <Layer
+      id="epania-layer"
+      type="fill"
+      paint={{
+        'fill-color': style.fillColor,
+        'fill-opacity': style.fillOpacity,
+        'fill-outline-color': style.color,
+
+      }}
+    />
+  </Source>
+)
+
+
+
+export const ColombiaSource = ({data, style}) => (
+  <Source id="colombia-source" type="geojson" data={data}>
+    <Layer
+      id="colombia-layer"
+      type="fill"
+      paint={{
+        'fill-color': style.fillColor,
+        'fill-opacity': style.fillOpacity,
+        'fill-outline-color': style.color,
+
+      }}
+    />
+  </Source>
+)
+
+
 export const DepsSource = ({data, style}) => (
   <Source id="departamentos-source" type="geojson" data={data}>
     <Layer

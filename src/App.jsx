@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { ProvSource, DepsSource, BsAsSource, RutasSource, ItaliaSource} from "./components/Sources.jsx";
+import { ProvSource, DepsSource, BsAsSource, RutasSource, ItaliaSource, ColombiaSource, EspaniaSource} from "./components/Sources.jsx";
 import { Markers } from "./components/Markers.jsx";
 import Popup from "./components/Popup.jsx";
 import "./App.css";
@@ -16,6 +16,8 @@ import {
   departamentosBsAs,
   rutas,
   italia,
+  colombia,
+  espania
 } from "../public/data/mapsData/index.js";
 import Main2 from './components/Main2.jsx'; // Cambia la ruta a tu formulario
 import Filtros from './components/filtros.jsx'; // Cambia la ruta a tu formulario
@@ -61,6 +63,25 @@ const style = {
   },
 
   italia: {
+    fillColor: "#bacbff",
+    color: "#9b1920",
+    weight: 2,
+    lineColor: "#b2b7f5",
+    fillOpacity: 1,
+    lineWidth: 2,
+  },
+
+  colombia: {
+    fillColor: "#bacbff",
+    color: "#9b1920",
+    weight: 2,
+    lineColor: "#b2b7f5",
+    fillOpacity: 1,
+    lineWidth: 2,
+  },
+
+
+  espania: {
     fillColor: "#bacbff",
     color: "#9b1920",
     weight: 2,
@@ -295,6 +316,8 @@ function App(urls) {
               <BsAsSource data={departamentosBsAs} style={style.country} />
               <RutasSource data={rutas} style={style.rutas}/>
               <ItaliaSource data={italia} style={style.italia}/>
+              <ColombiaSource data={colombia} style={style.colombia}/>
+              <EspaniaSource data={espania} style={style.espania}/>
 
 
               
